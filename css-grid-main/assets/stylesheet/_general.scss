@@ -1,0 +1,98 @@
+//Custom Styles
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: $text-color;
+    font-size: 1rem;
+}
+
+
+// Flex 
+
+.flex {
+    display: flex;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+.aif {
+    align-items: flex-start;
+}
+
+.jce {
+    justify-content: space-evenly;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+// General Styles
+
+a {
+    text-decoration: none;
+}
+
+.imgFull {
+    width: 100%;
+}
+
+.font0 {
+    font-size: 0;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    font-size: .8rem;
+    display: inline-block;
+    &-primary {
+        margin-top: 2.3rem;
+        padding: .4rem 1.3rem;
+        border: 3px solid black;
+        font-weight: 500;
+        border-radius: 1rem;
+        color: $black;
+    }
+    &-secondary {
+        margin-top: 1.2rem;
+        background-color: $textWhite;
+        color: $text-color;
+        padding: .5rem 2rem;
+        border-radius: 1rem;
+        text-align: center;
+         width: 240px;
+         font-size: 1.1rem;
+         margin-left: .5rem;
+    }
+}
